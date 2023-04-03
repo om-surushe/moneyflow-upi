@@ -615,6 +615,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               // get the amount from the input field
                               amount: double.parse(amountController.text),
                               description: noteController.text,
+                              
                             ),
                           );
                           // ignore: avoid_print
